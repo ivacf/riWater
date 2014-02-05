@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5FFEB"
+    tools:context="uk.co.ribot.riwater.MainActivity$PlaceholderFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plant"/>
+
+    <EditText
+        android:id="@+id/totalWaterEditText"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:hint="Total water (L)"/>
+
+    <EditText
+        android:id="@+id/maxContainerEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:hint="Pot water capacity (ML)"/>
+
+    <Button
+        android:id="@+id/buttonWater"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Water"/>
+
+</LinearLayout>
